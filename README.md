@@ -51,3 +51,4 @@ A simple web application that allows users to create and delete notes. Built wit
    ```bash
    heroku open
    ```
+4. Current deployed heroku app can be found at [Heroku App](https://quiet-refuge-24933-885d5736a54d.herokuapp.com/notes)
