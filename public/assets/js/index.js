@@ -4,7 +4,6 @@ let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
-let deleteButtons;
 
 if (window.location.pathname === "/notes") {
   noteForm = document.querySelector(".note-form");
@@ -14,7 +13,6 @@ if (window.location.pathname === "/notes") {
   newNoteBtn = document.querySelector(".new-note");
   clearBtn = document.querySelector(".clear-btn");
   noteList = document.querySelectorAll(".list-container .list-group");
-  deleteButtons = document.querySelector(".del-btn");
 }
 
 // Show an element
@@ -106,6 +104,7 @@ const handleNoteDelete = (e) => {
 // Sets the activeNote and displays it
 const handleNoteView = (e) => {
   e.preventDefault();
+  console.log("handle note view");
   activeNote = JSON.parse(e.target.parentElement.getAttribute("data-note"));
   renderActiveNote();
 };
