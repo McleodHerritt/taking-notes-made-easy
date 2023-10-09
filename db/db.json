@@ -1,1 +1,12 @@
-[]
+[
+    {
+        "title": "Make a note",
+        "text": "This is a note",
+        "id": "da93c435-cc88-4ea5-977a-9e7a5d5460bc"
+    },
+    {
+        "title": "This is a new note",
+        "text": "my new note",
+        "id": "1cf61679-e4d8-4952-b330-72a6b03cac52"
+    }
+]
